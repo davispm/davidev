@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Davi Santos | Portfolio</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div>
+            <img src="img/Foto de Perfil.png" alt="Foto de Perfil" class="perfil-foto">
+            <h2 class="perfil-nome">Davi Santos</h2>
+            <ul class="perfil-lista">
+                <li class="perfil-item"><a href="#inicio" class="perfil-item-texto">Início</a></li>
+                <li class="perfil-item"><a href="#sobre-mim" class="perfil-item-texto">Sobre mim</a></li>
+                <li class="perfil-item"><a href="#servicos" class="perfil-item-texto">Serviços</a></li>
+                <li class="perfil-item"><a href="#projetos" class="perfil-item-texto">Projetos</a></li>
+                <li class="perfil-item"><a href="#contato" class="perfil-item-texto">Contato</a></li>
+            </ul>
+        </div>
+            <a href="https://api.whatsapp.com/send?phone=552199213-0681&text=Olá!" target="_blank" class="perfil-botao">Meu WhatsApp</a>
+    </header>
+    <!-- MENU MOBILE -->
+    <div class="mobile-menu">
+        <h2 class="mobile-menu-titulo">Davi Santos</h2>
+        <button class="mobile-button" onclick="mostrarMenu()"><img src="img/menu.png" alt="Ícone menu mobile" class="mobile-icone"></button>
+    </div>
+    <div class="mobile-conteudo">
+        <ul class="perfil-lista">
+            <li class="perfil-item"><a href="#inicio" class="perfil-item-texto" onclick="mostrarMenu()">Início</a></li>
+            <li class="perfil-item"><a href="#sobre-mim" class="perfil-item-texto" onclick="mostrarMenu()">Sobre mim</a></li>
+            <li class="perfil-item"><a href="#servicos" class="perfil-item-texto" onclick="mostrarMenu()">Serviços</a></li>
+            <li class="perfil-item"><a href="#projetos" class="perfil-item-texto" onclick="mostrarMenu()">Projetos</a></li>
+            <li class="perfil-item"><a href="#contato" class="perfil-item-texto" onclick="mostrarMenu()">Contato</a></li>
+        </ul>
+        <a href="https://api.whatsapp.com/send?phone=552199213-0681&text=Olá!" target="_blank" class="perfil-botao">Meu WhatsApp</a>
+    </div>
+
+    <main class="principal">
+        <!-- SEÇÃO INICIO -->
+        <section class="inicio" id="inicio">
+            <p class="inicio-texto">Olá! eu sou</p>
+            <span class="inicio-titulo"></span>
+            <a href="#contato" class="inicio-botao">Contato</a>
+        </section>
+        <!-- SEÇÃO SOBRE MIM -->
+        <section class="sobre" id="sobre-mim">
+            <h2 class="titulo-principal">Sobre Mim</h2>
+            <hr class="separador">
+            <p class="sobre-texto_principal">
+                Desenvolvedor WordPress especializado em Elementor com
+                experiência em criação e personalização de sites. Atuei como
+                Freelancer nos últimos meses, entregando soluções web dinâmicas
+                e otimizadas para clientes diversos. Busco meu primeiro emprego CLT ou PJ.
+            </p>
+        
+            <div class="cards">
+                <div class="card-experiencia">
+                    <h3 class="card-titulo">Experiência</h3>
+                    <div class="card-box">
+                        <h4 class="card-experiencia_subtitulo">Com4Brasil</h4>
+                        <p class="card-experiencia_tema">Freelancer</p>
+                        <p class="card-experiencia_texto">
+                            Participação na construção e no desenvolvimento
+                            de sites institucionais, elaborando projetos para
+                            empresas de diferentes segmentos e perfis, desde o
+                            alinhamento das expectativas do cliente até a
+                            validação final.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card-conhecimentos">
+                    <h3 class="card-titulo">Conhecimentos</h3>
+                    <div class="card-box">
+                        <ul class="conhecimentos-lista">
+                            <li class="conhecimentos-item">
+                                <img src="img/logo-html.png" alt="Logo HTML" class="conhecimentos-logo">
+                                <p class="conhecimentos-titulo">HTML</p>
+                            </li>
+
+                            <li class="conhecimentos-item">
+                                <img src="img/logo-css.png" alt="Logo CSS" class="conhecimentos-logo">
+                                <p class="conhecimentos-titulo">CSS</p>
+                            </li>
+
+                            <li class="conhecimentos-item">
+                                <img src="img/logo-javascript.png" alt="Logo JS" class="conhecimentos-logo">
+                                <p class="conhecimentos-titulo">JAVASCRIPT</p>
+                            </li>
+                            
+                            <li class="conhecimentos-item">
+                                <img src="img/logo-elementor.svg" alt="Logo ELEMENTOR" class="conhecimentos-logo">
+                                <p class="conhecimentos-titulo">ELEMENTOR</p>
+                            </li>
+
+                            <li class="conhecimentos-item">
+                                <img src="img/logo-acf.png" alt="Logo ACF" class="conhecimentos-logo">
+                                <p class="conhecimentos-titulo">ACF</p>
+                            </li>
+
+                            <li class="conhecimentos-item">
+                                <img src="img/logo-woocommerce.webp" alt="Logo WooCommerce" class="conhecimentos-logo">
+                                <p class="conhecimentos-titulo">WOOCOMMERCE</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SEÇÃO SERVIÇOS -->
+        <section id="servicos" class="servicos-secao">
+        <h2 class="titulo-principal">Serviços</h2>
+        <hr class="separador">
+        <div class="servicos">
+            <div class="servicos-card">
+                <img src="img/logo-web-design.png" alt="Logo Web Design" class="servicos-logo">
+                <h3 class="servicos-titulo">Web Design</h3>
+                <p class="servicos-texto">
+                    Criação de websites
+                    atrativos, responsivos e funcionais
+                    a partir do plugin Elementor
+                </p>
+            </div>
+            <div class="servicos-card">
+                <img src="img/logo-figma.png" alt="Logo Prototipação" class="servicos-logo">
+                <h3 class="servicos-titulo">Prototipação</h3>
+                <p class="servicos-texto">
+                    Materialização do produto para
+                    visualizar ideias e conceitos antes de
+                    tirá-los do papel.
+                </p>
+            </div>
+            <div class="servicos-card">
+                <img src="img/logo-seo.png" alt="Logo SEO Google" class="servicos-logo">
+                <h3 class="servicos-titulo">SEO Google</h3>
+                <p class="servicos-texto">
+                    Otimização para melhorar o
+                    ranking do seu site nas pesquisas
+                    do Google.
+                </p>
+            </div>
+            <div class="servicos-card">
+                <img src="img/logo-ui-ux.png" alt="Logo UI/UX Design" class="servicos-logo">
+                <h3 class="servicos-titulo">UI/UX Design</h3>
+                <p class="servicos-texto">
+                    Garantindo uma excelente
+                    experiência de usuário nos
+                    sistemas web.
+                </p>
+            </div>
+        </div>
+        </section>
+        <!-- SEÇÃO PROJETOS -->
+        <section class="projetos" id="projetos">
+            <h3 class="titulo-principal">Projetos</h3>
+            <hr class="separador">
+            <div class="projetos-grid">
+                <a class="projetos-card-lambri" id="abrir-modal-lambri">
+                    <h4 class="projetos-titulo">Lambri Arquitetura</h4>
+                </a>
+                    
+                <a class="projetos-card-ppgac" id="abrir-modal-ppgac">
+                    <h4 class="projetos-titulo">PPGAC</h4>
+                </a>  
+            </div>
+            <!-- MODAL -->
+            <div id="fade" class="esconder"></div>
+            <div id="modal-lambri" class="esconder">
+                <div class="modal-header">
+                    <span></span>
+                    <h3 class="modal-titulo-principal">Lambri Arquitetura</h3>
+                    <button id="fechar-modal-lambri"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/lambri-site.png" alt="Prévia do Site Lambri Arquitetura" class="modal-imagem">
+                    <div class="modal-descricao">
+                        <h3 class="modal-titulo">Descrição:</h3>
+                        <p class="modal-texto">
+                            Site de portfolio de arquitetura oferecendo uma experiência
+                            limpa e elegante, com uma paleta de cores simples e imagens
+                            de alta qualidade enfatizando a clareza e organização.
+                        </p>
+                        <h3 class="modal-titulo">Mais Sobre:</h3>
+                        <p class="modal-texto">Site:
+                            <a href="https://lambriarquitetura.com.br" target="_blank" class="modal-link">lambriarquitetura.com.br</a>
+                        </p>
+                        <p class="modal-texto">Data:
+                            <a class="modal-link">Maio de 2023</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="modal-ppgac" class="esconder">
+                <div class="modal-header">
+                    <span></span>
+                    <h3 class="modal-titulo-principal">PPGAC UFRJ</h3>
+                    <button id="fechar-modal-ppgac"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+
+                <div class="modal-body">
+                    <img src="img/PPGAC-site.png" alt="Prévia do Site PPGAC" class="modal-imagem">
+                    <div class="modal-descricao">
+                        <h3 class="modal-titulo">Descrição:</h3>
+                        <p class="modal-texto">
+                            Site interno da Universidade Federal do Rio de Janeiro sobre o
+                            Programa de pós-graduação em Artes da Cena, focando em um design 
+                            tradicional institucional, refletindo a importância e solidez do programa
+
+                        </p>
+                        <h3 class="modal-titulo">Mais Sobre:</h3>
+                        <p class="modal-texto">Site:
+                            <a href="https://ppgac-ecoufrj.com.br/new/" target="_blank" class="modal-link">ppgac-ecoufrj.com.br/new/</a>
+                        </p>
+                        <p class="modal-texto">Data:
+                            <a class="modal-link">Abril de 2023</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Seção CONTATO -->
+        <section class="contato" id="contato">
+            <h3 class="titulo-principal">Contato</h3>
+            <hr class="separador">
+            <div class="contato-conteudo">
+                <a href="tel:+5521992130681" target="_blank" class="contato-card">
+                    <img src="img/telefone.png" alt="Ícone de Telefone" class="contato-imagem">
+                    <h4 class="contato-titulo">Telefone</h4>
+                    <p class="contato-descricao">(21) 99213-0681</p>
+                </a>
+                <a href="mailto:davispm.rj@gmail.com" target="_blank" class="contato-card">
+                    <img src="img/email.png" alt="Ícone de Email" class="contato-imagem">
+                    <h4 class="contato-titulo">Email</h4>
+                    <p class="contato-descricao">davispm.rj@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/davispm/" target="_blank" class="contato-card">
+                    <img src="img/linkedin.png" alt="Ícone Linkedin" class="contato-imagem">
+                    <h4 class="contato-titulo">Linkedin</h4>
+                    <p class="contato-descricao">@davispm</p>
+                </a>
+                <a href="https://github.com/davispm" target="_blank" class="contato-card">
+                    <img src="img/github.png" alt="Ícone GitHub" class="contato-imagem">
+                    <h4 class="contato-titulo">GitHub</h4>
+                    <p class="contato-descricao">@davispm</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Copyright <a href="#inicio" class="rodape-link">Davi Santos </a>Todos os direitos reservados.</p>
+    </footer>
+    <script src="main.js"></script>
+    <script src="modal.js"></script>
+    <script src="type.js"></script>
+</body>
+</html>
